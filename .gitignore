@@ -1,0 +1,4 @@
+# Ignore note folder and all its files
+note/
+note/**
+
