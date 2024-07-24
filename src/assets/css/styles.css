@@ -12,6 +12,10 @@
     font-style: normal;
 }
 
+body {
+    min-height: 1000vh;
+}
+
 .light-bg {
     background-color: #FAEBEF;
 }
@@ -36,20 +40,32 @@
     border: 1px solid #333D79;
 }
 
+.ft-bold {
+    font-weight: 700;
+}
+
 @media screen and (max-width: 360px) and (orientation: portrait) {
     html {
         font-size: 16px;
     }
 
-    .header {
+    body {
+        padding-top: 10vh;
+    }
+
+    /* All in header */
+
+    header {
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
+        height: 10vh;
+        z-index: 100;
     }
     
     .navbar svg {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
         height: 2rem;  /* .nav-menu top & .switch height */
@@ -59,8 +75,8 @@
     }
 
     .nav-menu {
-        position: fixed;
-        top: calc(2rem + .5rem); /* .navbar svg height  + .navbar svg bottom margin */
+        position: absolute;
+        top: calc(2rem + 1rem + 1rem); /* .switch height  + .switch top-bottom margin */
         right: 0;
         left: 0;
         display: none;
@@ -78,14 +94,31 @@
 
     .website-title {
         font-size: 1.25rem;
-        font-weight: 700;
         text-align: center;
         /* -webkit-text-stroke: #333D79 1px; */
         margin-top: .5rem;
         line-height: 1.5rem;
-        position: fixed;
+        position: absolute;
         top: 0;
         right: calc(3.5rem + .5rem); /* .navbar svg width + .navbar svg right & left margin */
         left: calc(3.5rem + .5rem); /* .switch width + .switch right & left margin */
+    }
+
+    /* Main #home */
+
+    .home-banner-image {
+        position: relative;
+        width: 100vw;
+    }
+
+    .home-banner-image img {
+        width: 100%;
+    }
+
+    .home-banner-image span{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        font-size: .75rem;
     }
 }
