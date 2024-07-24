@@ -16,6 +16,8 @@ This is a part of my coursework assignment for:
 - CSS
 - JavaScript:
   - DOM manipulation
+  - Anonymous function
+  - Arrow function
   - Events
   - Function
   - Data validation
