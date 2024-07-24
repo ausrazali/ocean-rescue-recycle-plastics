@@ -2,9 +2,9 @@
 .switch {
     position: relative;
     display: inline-block; /* inline-block allows set width and height of element */
-    width: 4rem;
+    width: 3.5rem;
     height: 2rem;
-    margin: .5rem .25rem; /* .navbar svg margin */
+    margin: 1rem .25rem; /* .navbar svg margin */
 }
 
 /* Hide default HTML checkbox */
@@ -53,9 +53,9 @@ input:checked + .slider::before {
     background-image: url("../images/svgs/moon-icon.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-transform: translateX(26px); /* for webkit browser primarily for older chrome and safari */
-    -ms-transform: translateX(26px); /* for older IE */
-    transform: translateX(26px);
+    -webkit-transform: translateX(1.5rem); /* for webkit browser primarily for older chrome and safari */
+    -ms-transform: translateX(1.5rem); /* for older IE */
+    transform: translateX(1.5rem);
 }
 
 .slider.round {
