@@ -1,6 +1,6 @@
 /* The switch (box around the slider) */
 .switch {
-    position: relative;
+    position: absolute;
     display: inline-block; /* inline-block allows set width and height of element */
     width: 3.5rem;
     height: 2rem;
@@ -42,11 +42,6 @@
     -webkit-transition: .4s; /* for webkit browser primarily for older chrome and safari */
     transition: .4s; /* standard for modern browsers */
     /* transition property omitted = all properties in the element will be transitioned */
-}
-
-input:checked + .slider,
-input:not(:checked) + .slider { /* target the slider when the input is checked (input can be checked by clicking the label bcs it is inside the label) */
-    background-color: #333D79;
 }
 
 input:checked + .slider::before {
