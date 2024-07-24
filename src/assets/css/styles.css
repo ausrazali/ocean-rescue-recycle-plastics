@@ -13,7 +13,7 @@
 }
 
 body {
-    min-height: 1000vh;
+    min-height: 100vh;
 }
 
 .light-bg {
@@ -44,6 +44,10 @@ body {
     font-weight: 700;
 }
 
+.center-txt {
+    text-align: center;
+}
+
 @media screen and (max-width: 360px) and (orientation: portrait) {
     html {
         font-size: 16px;
@@ -57,7 +61,7 @@ body {
         padding: 0 .5rem;
     }
 
-    /* All in header */
+    /* HEADER */
 
     header {
         position: fixed;
@@ -108,7 +112,17 @@ body {
         left: calc(3.5rem + .5rem); /* .switch width + .switch right & left margin */
     }
 
-    /* Main #home */
+    /* MAIN */
+
+    main {
+        margin-bottom: 10vh;
+    }
+
+    .section-subtitle {
+        font-size: 1.25rem;
+    }
+
+    /* MAIN #home */
 
     .home-banner-image {
         position: relative;
@@ -124,5 +138,10 @@ body {
         bottom: 1rem;
         left: 1rem;
         font-size: .75rem;
+    }
+
+    /* FOOTER */
+    footer {
+        font-size: .7rem;
     }
 }
