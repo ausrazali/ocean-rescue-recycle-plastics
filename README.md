@@ -23,4 +23,4 @@ This is a part of my coursework assignment for:
   - Data validation
   - Form submission
   - Fetch API
-  - Animations with GSAP
+  - GSAP animation library
