@@ -4,7 +4,7 @@
     display: inline-block; /* inline-block allows set width and height of element */
     width: 4rem;
     height: 2rem;
-    margin: .5rem .25rem; sr
+    margin: .5rem .25rem; /* .navbar svg margin */
 }
 
 /* Hide default HTML checkbox */
@@ -32,8 +32,8 @@
     position: absolute;
     content: "";
     /* background-color: #333D79; */
-    height: 26px;
-    width: 26px;
+    height: 1.4em;
+    width: 1.5em;
     left: 4px;
     bottom: 4px;
     background-image: url("../images/svgs/sun-icon.svg");
