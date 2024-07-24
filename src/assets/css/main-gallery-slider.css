@@ -34,6 +34,14 @@
     align-items: center;
     padding: 1rem;
     perspective: 6.25rem; /* perspective determine the distance between z=0 plane and the user, ti gove 3-d positioned element some perspective*/
+    position: relative;
+}
+
+.main-slide span{
+    position: absolute;
+    bottom: 3em;
+    left: 3em;
+    font-size: .5rem;
 }
 
 img {

@@ -53,6 +53,10 @@ body {
         padding-top: 10vh;
     }
 
+    .image-source {
+        padding: 0 .5rem;
+    }
+
     /* All in header */
 
     header {
