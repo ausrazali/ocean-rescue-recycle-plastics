@@ -1,0 +1,65 @@
+/* The switch (box around the slider) */
+.switch {
+    position: relative;
+    display: inline-block; /* inline-block allows set width and height of element */
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    /* background-color: #333D79; */
+    top: 0; /* all these 5 positions make the element same size as its parent */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: .4s; /* for webkit browser primarily for apple safari */
+    transition: .4s; /* standard for other browsers */
+    /* transition property omitted = all properties in the element will be transitioned */
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    /* background-color: #333D79; */
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-image: url("../images/svgs/sun-icon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: .4s; /* for webkit browser primarily for older chrome and safari */
+    transition: .4s; /* standard for modern browsers */
+    /* transition property omitted = all properties in the element will be transitioned */
+}
+
+input:checked + .slider { /* target the slider when the input is checked (input can be checked by clicking the label bcs it is inside the label) */
+    background-color: #333D79;
+}
+
+input:checked + .slider::before {
+    background-image: url("../images/svgs/moon-icon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform: translateX(26px); /* for webkit browser primarily for older chrome and safari */
+    -ms-transform: translateX(26px); /* for older IE */
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round::before {
+    border-radius: 50%;
+}
