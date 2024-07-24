@@ -10,7 +10,7 @@
 
 .main-gallery-slide-track {
     display: flex;
-    width: calc(16rem * 7); /* total no. of slides * individual slide width 250px */
+    width: calc(16rem * 26); /* total no. of slides * individual slide width 250px */
     animation: scroll 20s linear infinite;
 }
 
@@ -23,7 +23,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-16rem * 9)); /*move the slide track leftwards (-250px) by half (18 images / 2 = 9) of its width */
+        transform: translateX(calc(-16rem * 13)); /*move the slide track leftwards (-250px) by half (18 images / 2 = 9) of its width */
     }
 }
 
