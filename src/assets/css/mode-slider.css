@@ -2,8 +2,9 @@
 .switch {
     position: relative;
     display: inline-block; /* inline-block allows set width and height of element */
-    width: 60px;
-    height: 34px;
+    width: 4rem;
+    height: 2rem;
+    margin: .5rem .25rem; sr
 }
 
 /* Hide default HTML checkbox */
@@ -43,7 +44,8 @@
     /* transition property omitted = all properties in the element will be transitioned */
 }
 
-input:checked + .slider { /* target the slider when the input is checked (input can be checked by clicking the label bcs it is inside the label) */
+input:checked + .slider,
+input:not(:checked) + .slider { /* target the slider when the input is checked (input can be checked by clicking the label bcs it is inside the label) */
     background-color: #333D79;
 }
 
