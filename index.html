@@ -18,6 +18,10 @@
         <link rel="stylesheet" href="src/assets/css/mode-slider.css">
         <link rel="stylesheet" href="src/assets/css/main-gallery-slider.css">
 
+        <!-- GSAP Scroll Trigger library import -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>        
+
         <title>Ocean Rescue: Recycle Plastics</title>
     </head>
 
@@ -44,13 +48,19 @@
                 <span class="slider round light-bg light-border toggle-border"></span>
             </label>
 
-            <div class="dark-ft toggle-ft ft-bold website-title">
+            <!-- <div class="dark-ft toggle-ft ft-bold website-title">
                 Ocean Rescue: Recycle Plastics
-            </div>
+            </div> -->
         </header>
 
         <main>
             <section id="home">
+                <div class="dark-ft toggle-ft ft-bold website-title-shrink">
+                    Ocean Rescue: Recycle Plastics
+                </div>
+
+                <div class="shrink-container light-bg toggle-bg"></div>
+
                 <div class="home-banner-image">
                     <img src="src/assets/images/8-wave.jpg" alt="">
                     <span><a href="https://www.nst.com.my/opinion/columnists/2021/11/749898/plastic-pollution-preventing-us-tapping-ocean-wealth" target="_blank" class="dark-ft toggle-ft light-bg toggle-bg image-source">Source: NST</a></span>
@@ -184,5 +194,6 @@
         <!-- <script src="src/assets/js/main.js"></script> -->
         <script src="src/assets/js/nav.js"></script>
         <script src="src/assets/js/mode-toggle.js"></script>
+        <script src="src/assets/js/shrink-title.js"></script>
     </body>
 </html>
