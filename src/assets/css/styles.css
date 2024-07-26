@@ -297,6 +297,44 @@ body {
         width: 100%;
     }
 
+    /* MAIN #contact-us */
+
+    #contact-us {
+        margin: 0 5vw;
+    }
+
+    #contact-form,
+    #contact-thank-you {
+        padding: 1rem;
+    }
+
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form textarea {
+        width: 100%;
+    }
+
+    #contact-form textarea {
+        height: 10rem;
+        resize: vertical;
+    }
+
+    .contact-third {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+
+    #contact-form .contact-third input[type="reset"],
+    #contact-form .contact-third input[type="submit"] {
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+    }
+
+    #contact-form .contact-third input[type="submit"] {
+        border: 0;
+    }
+
     /* FOOTER */
     footer {
         font-size: .7rem;
