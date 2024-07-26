@@ -2,6 +2,7 @@ const toggleBtn = document.querySelector("#toggle-btn");
 const toggleBtnSlider = document.querySelector(".slider")
 const toggleFont = document.querySelectorAll(".toggle-ft");
 const toggleBackground = document.querySelectorAll(".toggle-bg");
+const toggleTranslucentBackground = document.querySelectorAll(".toggle-translucent-bg");
 const toggleBorder = document.querySelectorAll(".toggle-border");
 const toggleBorderThin = document.querySelectorAll(".toggle-border-thin");
 
@@ -27,6 +28,10 @@ toggleBtn.addEventListener('change', () => {
             toggleBorderThin[i].classList.toggle('dark-border-thin');
             toggleBorderThin[i].classList.toggle('light-border-thin');
         }
+        for (let i = 0; i < toggleTranslucentBackground.length; i++) {
+            toggleTranslucentBackground[i].classList.toggle('dark-translucent-bg');
+            toggleTranslucentBackground[i].classList.toggle('light-translucent-bg');
+        }
     } else {
         toggleBtnSlider.classList.toggle("dark-bg");
         toggleBtnSlider.classList.toggle("light-bg");
@@ -47,6 +52,10 @@ toggleBtn.addEventListener('change', () => {
         for (let i = 0; i < toggleBorderThin.length; i++) {
             toggleBorderThin[i].classList.toggle('dark-border-thin');
             toggleBorderThin[i].classList.toggle('light-border-thin');
+        }
+        for (let i = 0; i < toggleTranslucentBackground.length; i++) {
+            toggleTranslucentBackground[i].classList.toggle('dark-translucent-bg');
+            toggleTranslucentBackground[i].classList.toggle('light-translucent-bg');
         }
     }
 });
