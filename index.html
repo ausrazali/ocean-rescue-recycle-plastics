@@ -436,29 +436,48 @@
                     CONTACT US
                 </div>
 
-                <form action="" method="post" id="pledge-form">
-                    <div class="contact-first">
-                        <label for=""></label>
-                        <input type="text" name="" id="">
+                <div class="contact-form-container">
+                    <form action="" method="post" id="contact-form" class="dark-border toggle-border">
+                        <div class="contact-first">
+                            <div>
+                                <div>
+                                    <label class="dark-ft toggle-ft" for="contact-name">Name:</label>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="text" name="contact-name" id="contact-name" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <label class="dark-ft toggle-ft" for="contact-email">Email:</label>
+                                    </div>
+                                    <div>
+                                        <input type="email" name="contact-email" id="contact-email" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="contact-second">
+                            <div>
+                                <label class="dark-ft toggle-ft" for="contact-message">Message:</label>
+                            </div>
+                            <div>
+                                <textarea name="contact-message" id="contact-message" form="contact-form" required></textarea>
+                            </div>
+                        </div>
+    
+                        <div class="contact-third">
+                            <input type="reset" value="Reset" class="dark-ft toggle-ft light-bg toggle-bg dark-border toggle-border">
+                            <input type="submit" value="Send" class="light-ft toggle-ft dark-bg toggle-bg">
+                        </div>
+                    </form>
+                    <div class="dark-ft toggle-ft center-txt dark-border toggle-border" id="contact-thank-you">
+                        Thanks for reaching out! We received your message and will respond soon. Meanwhile, explore our resources to learn more about how you can help reduce marine plastic pollution.
                     </div>
-
-                    <div class="contact-second">
-                        <label for=""></label>
-                        <input type="text" name="" id="">
-                    </div>
-
-                    <div class="contact-third">
-                        <label for=""></label>
-                        <textarea name="" id=""></textarea>
-                    </div>
-
-                    <div class="contact-fourth">
-                        <input type="reset" value="Reset">
-                        <input type="submit" value="Send">
-                    </div>
-                </form>
-                <div class="dark-ft toggle-ft center-txt" id="pledge-thank-you">
-                    Thanks for reaching out! We received your message and will respond soon. Meanwhile, explore our resources to learn more about how you can help reduce marine plastic pollution.
                 </div>
 
                 <div class="section-subtitle dark-ft toggle-ft ft-bold center-txt">
