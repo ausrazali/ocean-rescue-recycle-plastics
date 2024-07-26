@@ -283,7 +283,7 @@ body {
     }
 
     #resources .resource-list {
-        padding: 1rem;
+        padding: 0 1rem;
     }
 
     #resources .resource-list ul li svg {
@@ -296,6 +296,24 @@ body {
 
     #resources .resource-list ul li .documentary-iframe .video-frame {
         width: 100%;
+    }
+
+    #resource-list-articles {
+        height: 15rem;
+    }
+
+    #resource-list-documentaries {
+        height: 25rem;
+    }
+
+    #resource-list-organizations {
+        height: 10rem;
+    }
+
+    #resource-list-articles,
+    #resource-list-documentaries,
+    #resource-list-organizations {
+        overflow-y: scroll;
     }
 
     /* MAIN #contact-us */
@@ -376,6 +394,16 @@ body {
     .country-list li svg {
         height: 100%;
         width: 100%;
+    }
+
+    .google-map-frame {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .google-map-frame iframe {
+        width: 100%;
+        height: 100%;
     }
 
     /* FOOTER */
