@@ -225,6 +225,7 @@ body {
     #pledge-form input[type="text"],
     #pledge-form input[type="email"] {
         width: 100%;
+        font-size: 1rem;
     }
 
     #pledge-form input[type="checkbox"],
@@ -312,11 +313,13 @@ body {
     #contact-form input[type="email"],
     #contact-form textarea {
         width: 100%;
+        font-size: 1rem;
     }
 
     #contact-form textarea {
         height: 10rem;
         resize: vertical;
+        font-size: 1rem;
     }
 
     .contact-third {
