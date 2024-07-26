@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+.custom-bullet {
+    list-style-type: none;
+}
+
 @media screen and (max-width: 360px) and (orientation: portrait) {
     html {
         font-size: 16px;
@@ -161,6 +165,72 @@ body {
         bottom: 1rem;
         left: 1rem;
         font-size: .75rem;
+    }
+
+    /* MAIN #how-to-help */
+
+    #how-to-help {
+        margin: 0 5vw;
+    }
+
+    #how-to-help li {
+        /* list-style-type: none; */
+        margin: .5rem 0;
+    }
+
+    #how-to-help .help-cards {
+        padding: 1rem;
+    }
+
+    #how-to-help .help-cards ul li svg {
+        margin-right: .5rem;
+    }
+
+    #how-to-help .help-form-container {
+        margin-top: 3rem;
+    }
+
+    #how-to-help .pledge-form-title {
+        margin-bottom: 1rem;
+    }
+
+    #pledge-form,
+    #pledge-thank-you {
+        padding: 1rem;
+    }
+
+    #pledge-form .pledge-third-left .pledge-third-right {
+        display: grid;
+    }
+
+    #pledge-form .pledge-third,
+    #pledge-form .pledge-fourth {
+        margin: 2rem 0;
+    }
+
+    #pledge-form input[type="text"],
+    #pledge-form input[type="email"] {
+        width: 100%;
+    }
+
+    #pledge-form input[type="checkbox"],
+    #pledge-form input[type="radio"] {
+        margin-right: .5rem;
+    }
+
+    .pledge-fifth {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #pledge-form .pledge-fifth input[type="reset"],
+    #pledge-form .pledge-fifth input[type="submit"] {
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+    }
+
+    #pledge-form .pledge-fifth input[type="submit"] {
+        border: 0;
     }
 
     /* FOOTER */
