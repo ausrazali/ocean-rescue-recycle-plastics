@@ -20,6 +20,10 @@ body {
     background-color: #FAEBEF;
 }
 
+.light-translucent-bg {
+    background-color: rgba(250, 235, 239, 0.2);
+}
+
 .light-ft {
     color: #FAEBEF;
 }
@@ -35,6 +39,10 @@ body {
 
 .dark-bg {
     background-color: #333D79;
+}
+
+.dark-translucent-bg {
+    background-color: rgba(51, 61, 121, 0.2);
 }
 
 .dark-ft {
@@ -200,14 +208,6 @@ body {
         margin-right: .5rem;
     }
 
-    #how-to-help .help-form-container {
-        margin-top: 3rem;
-    }
-
-    #how-to-help .pledge-form-title {
-        margin-bottom: 1rem;
-    }
-
     #pledge-form,
     #pledge-thank-you {
         padding: 1rem;
@@ -336,6 +336,46 @@ body {
 
     #contact-form .contact-third input[type="submit"] {
         border: 0;
+    }
+
+    .country-selector-wrapper {
+        padding: .5rem;
+        position: relative;
+    }
+
+    .country-selector-dropdown-icon {
+        width: 10%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: .5rem;
+        cursor: pointer;
+    }
+
+    .country-selector-dropdown-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .country-list {
+        height: 10rem;
+        overflow-y: scroll;
+    }
+
+    .country-list li {
+        /* list-style-type: none; */
+        margin: .5rem 0;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .country-list li div:nth-child(1) {
+        margin-right: .5rem;
+    }
+
+    .country-list li svg {
+        height: 100%;
+        width: 100%;
     }
 
     /* FOOTER */
