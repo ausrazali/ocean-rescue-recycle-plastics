@@ -25,7 +25,12 @@ body {
 }
 
 .light-border {
+    border: 2px solid #FAEBEF;
+}
+
+.light-border-thin {
     border: 1px solid #FAEBEF;
+    padding: .5rem;
 }
 
 .dark-bg {
@@ -37,7 +42,12 @@ body {
 }
 
 .dark-border {
+    border: 2px solid #333D79;
+}
+
+.dark-border-thin {
     border: 1px solid #333D79;
+    padding: .5rem;
 }
 
 .ft-bold {
@@ -50,6 +60,10 @@ body {
 
 .custom-bullet {
     list-style-type: none;
+}
+
+.ft-75 {
+    font-size: .75rem;
 }
 
 @media screen and (max-width: 360px) and (orientation: portrait) {
@@ -231,6 +245,56 @@ body {
 
     #pledge-form .pledge-fifth input[type="submit"] {
         border: 0;
+    }
+
+    /* MAIN #resources */
+
+    #resources {
+        margin: 0 5vw;
+    }
+
+    #resources .resource-container{
+        margin-bottom: 2rem;
+    }
+
+    #resources li {
+        /* list-style-type: none; */
+        margin: .5rem 0;
+    }
+
+    #resources .resource-title-wrapper {
+        padding: 0 .5rem;
+        position: relative;
+    }
+
+    #resources .resource-title-wrapper .resource-title-dropdown-icon {
+        width: 10%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: .5rem;
+        cursor: pointer;
+    }
+
+    #resources .resource-title-wrapper .resource-title-dropdown-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    #resources .resource-list {
+        padding: 1rem;
+    }
+
+    #resources .resource-list ul li svg {
+        margin-right: .5rem;
+    }
+
+    #resources .resource-list ul li .documentary-iframe {
+        width: 100%;
+    }
+
+    #resources .resource-list ul li .documentary-iframe .video-frame {
+        width: 100%;
     }
 
     /* FOOTER */
