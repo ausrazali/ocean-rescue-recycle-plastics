@@ -1,3 +1,9 @@
+/*
+--------------------------------------------------------------
+    Auto-populate options in select country in pledge form
+--------------------------------------------------------------
+*/
+
 const worldCountries = {
     Afghanistan: 'Afghanistan',
     Albania: 'Albania',
@@ -201,6 +207,11 @@ const worldCountries = {
 const selectCountry = document.getElementById('pledge-country');
 
 selectCountry.innerHTML = ''; // initialize empty options
+
+const emptyValue = document.createElement('option');
+emptyValue.value = "";
+emptyValue.textContent = '';
+selectCountry.appendChild(emptyValue);
 
 for (const key in worldCountries) {
     const option = document.createElement('option');
