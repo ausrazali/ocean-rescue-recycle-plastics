@@ -7,3 +7,7 @@ spare.html
 
 # Ignore all .txt files
 *.txt
+
+# Ignore drawio files
+*.drawio.*
+*.drawio
