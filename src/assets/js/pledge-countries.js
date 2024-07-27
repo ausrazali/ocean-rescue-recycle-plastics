@@ -200,11 +200,9 @@ const worldCountries = {
 
 const selectCountry = document.getElementById('pledge-country');
 
-console.log(selectCountry);
 selectCountry.innerHTML = ''; // initialize empty options
 
 for (const key in worldCountries) {
-    console.log(key);
     const option = document.createElement('option');
     option.value = key;
     option.textContent = worldCountries[key];
