@@ -4,3 +4,6 @@ note/**
 
 # Spare for code that will be inserted later
 spare.html
+
+# Ignore all .txt files
+*.txt
