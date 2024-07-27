@@ -8,5 +8,5 @@ ScrollTrigger.create({
     trigger: ".home-banner-image", // animate when .home-banner-image is in view
     start: "top bottom", // start animation when top of trigger reach bottom of viewport
     endTrigger: ".home-banner-image", // element to stop animation
-    end: "center top", // end animation when center of trigger reach top of viewport
+    end: "top top", // end animation when center of trigger reach top of viewport
 });
