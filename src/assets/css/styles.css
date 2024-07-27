@@ -131,17 +131,17 @@ body {
     }
 
     /* NOTE this is if website title in header */
-    /* .website-title {
+    .website-title {
         font-size: 1.25rem;
-        text-align: center; */
+        text-align: center;
         /* -webkit-text-stroke: #333D79 1px; */
-        /* margin-top: .5rem;
+        margin-top: .5rem;
         line-height: 1.5rem;
-        position: absolute;
-        top: 0; */
-        /* right: calc(3.5rem + .5rem); */ /* .navbar svg width + .navbar svg right & left margin */
-        /* left: calc(3.5rem + .5rem); */ /* .switch width + .switch right & left margin */
-    /* } */
+        position: fixed;
+        top: 0;
+        right: calc(3.5rem + .5rem); /* .navbar svg width + .navbar svg right & left margin */
+        left: calc(3.5rem + .5rem); /* .switch width + .switch right & left margin */
+    }
 
     /* MAIN */
 
@@ -234,7 +234,8 @@ body {
     }
 
     #pledge-form input[type="text"],
-    #pledge-form input[type="email"] {
+    #pledge-form input[type="email"],
+    #pledge-form select {
         width: 100%;
         font-size: 1rem;
     }
@@ -324,6 +325,13 @@ body {
     #resource-list-documentaries,
     #resource-list-organizations {
         overflow-y: scroll;
+        display: none;
+    }
+
+    #resource-list-articles.active,
+    #resource-list-documentaries.active,
+    #resource-list-organizations.active {
+        display: block;
     }
 
     /* MAIN #contact-us */
