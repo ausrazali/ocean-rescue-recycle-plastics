@@ -366,6 +366,10 @@ body {
         border: 0;
     }
 
+    .contact-location-wrapper {
+        position: relative;
+    }
+
     .country-selector-wrapper {
         padding: .5rem;
         position: relative;
@@ -387,6 +391,16 @@ body {
     .country-list {
         height: 10rem;
         overflow-y: scroll;
+        display: none;
+        position: absolute;
+        top: 2.7rem;
+        right: 0;
+        left: 0;
+        z-index: 10;
+    }
+    
+    .country-list.active {
+        display: block;
     }
 
     .country-list li {
