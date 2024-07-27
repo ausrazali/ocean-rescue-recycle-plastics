@@ -48,9 +48,9 @@
                 <span class="slider round light-bg light-border toggle-border"></span>
             </label>
 
-            <!-- <div class="dark-ft toggle-ft ft-bold website-title">
+            <div class="dark-ft toggle-ft ft-bold website-title">
                 Ocean Rescue: Recycle Plastics
-            </div> -->
+            </div>
         </header>
 
         <main>
@@ -184,7 +184,7 @@
                 </div>
             </section>
 
-            TODO: UPDATE section id="facts" here
+            <!-- TODO: UPDATE section id="facts" here -->
             <!-- <section id="facts"> -->
 
             <section id="how-to-help">
@@ -273,7 +273,7 @@
                                     <label class="dark-ft toggle-ft" for="pledge-name">Name:</label>
                                 </div>
                                 <div>
-                                    <input type="text" name="pledge-name" id="pledge-name">
+                                    <input type="text" name="pledge-name" id="pledge-name" required>
                                 </div>
                             </div>
                             
@@ -282,7 +282,8 @@
                                     <label class="dark-ft toggle-ft" for="pledge-country">Country:</label>
                                 </div>
                                 <div>
-                                    <input type="text" name="pledge-country" id="pledge-country">
+                                    <!-- <input type="text" name="pledge-country" id="pledge-country" required> -->
+                                    <select name="pledge-country" id="pledge-country" class="light-ft toggle-ft dark-bg toggle-bg"></select>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +343,7 @@
                 </div>
 
                 <div class="resource-container">
-                    <div class="resource-title-wrapper dark-border toggle-border c-pointer">
+                    <div class="resource-title-wrapper dark-border toggle-border c-pointer"  id="resource-selector-articles">
                         <div class="resource-title dark-ft toggle-ft">
                             Articles
                         </div>
@@ -367,7 +368,7 @@
                 </div>
                 
                 <div class="resource-container">
-                    <div class="resource-title-wrapper dark-border toggle-border c-pointer">
+                    <div class="resource-title-wrapper dark-border toggle-border c-pointer"  id="resource-selector-documentaries">
                         <div class="resource-title dark-ft toggle-ft">
                             Documentaries
                         </div>
@@ -424,7 +425,7 @@
                 </div>
                 
                 <div class="resource-container">
-                    <div class="resource-title-wrapper dark-border toggle-border c-pointer">
+                    <div class="resource-title-wrapper dark-border toggle-border c-pointer" id="resource-selector-organizations">
                         <div class="resource-title dark-ft toggle-ft">
                             Organizations
                         </div>
@@ -536,8 +537,8 @@
             </section>
         </main>
 
-        <footer class="light-ft dark-bg center-txt">
-            <p>Copyright &copy; <span class="light-bg dark-ft" style="padding: 0 .25rem;">matyod.dev</span> 2024. All rights reserved.</p>
+        <footer class="light-ft toggle-ft dark-bg toggle-bg center-txt">
+            <p>Copyright &copy; <span class="dark-ft toggle-ft light-bg toggle-bg" style="padding: 0 .25rem;">matyod.dev</span> 2024. All rights reserved.</p>
             <p><span class="ft-bold">Developer:</span> MUHAMAD FIRDAUS BIN MOHD RAZALI (MC230521963)</p>
             <p><span class="ft-bold">Co-Developer:</span> MUHAMMAD HALIM NOR RAHMAT (MC230521854)</p>
         </footer>
@@ -547,6 +548,8 @@
         <script src="src/assets/js/nav.js"></script>
         <script src="src/assets/js/mode-toggle.js"></script>
         <script src="src/assets/js/shrink-title.js"></script>
-        <script src="src/assets/js/contact-us-country.js"></script>
+        <script src="src/assets/js/cu-country-selector.js"></script>
+        <script src="src/assets/js/rsrc-selector.js"></script>
+        <script src="src/assets/js/pledge-countries.js"></script>
     </body>
 </html>
