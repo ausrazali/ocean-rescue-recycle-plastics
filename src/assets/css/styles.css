@@ -238,6 +238,7 @@ body {
     #pledge-form select {
         width: 100%;
         font-size: 1rem;
+        padding-left: .25rem;
     }
 
     #pledge-form input[type="checkbox"],
@@ -350,6 +351,7 @@ body {
     #contact-form textarea {
         width: 100%;
         font-size: 1rem;
+        padding-left: .25rem;
     }
 
     #contact-form textarea {
