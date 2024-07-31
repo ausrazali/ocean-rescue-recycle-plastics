@@ -9,15 +9,15 @@ CREATE TABLE visitor (
     visitor_email VARCHAR(255),
     visitor_name VARCHAR(255),
     visitor_country VARCHAR(255),
-    opt_in BOOL,
-    terms_agreement BOOL,
+    opt_in BOOLEAN,
+    terms_agreement BOOLEAN,
     vstr_id_ctr INT(10),
     CONSTRAINT PK_Visitor PRIMARY KEY (visitor_id)
 );
 
 CREATE TABLE visitor_pledge (
     visitor_id VARCHAR(10),
-    pledge TINYTEXT,
+    pledge VARCHAR(255),
     CONSTRAINT PK_Visitor_Pledge PRIMARY KEY (visitor_id, pledge),
     CONSTRAINT FK_Visitor_Pledge_Visitor FOREIGN KEY (visitor_id) REFERENCES visitor (visitor_id)
 );
@@ -32,3 +32,9 @@ CREATE TABLE contact_form (
     msg_id_ctr INT(10),
     CONSTRAINT PK_Contact_Form PRIMARY KEY (form_id)
 );
+
+CREATE VIEW vu_visitor_counter AS
+SELECT COUNT(*) FROM visitor;
+
+CREATE VIEW vu_message_counter AS
+SELECT COUNT(*) FROM contact_form;
