@@ -14,3 +14,6 @@ spare.html
 
 # Ignore .xlsx files
 *.xlsx
+
+# Ignore .csv files
+*.csv
