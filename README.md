@@ -15,17 +15,21 @@ This is a part of my coursework assignment for:
 - HTML
 - CSS
   - Class Management:
-    - Transitioned from single general class to multiple descriptive classes for enhanced modularity and flexibility.
+    - Transitioned from using a single general class to multiple descriptive classes for enhanced modularity and flexibility.
     - Example: Changed from  
       - `class="country-selector-wrapper"` to  
       - `class="country-selector-wrapper dark-ft toggle-ft dark-border toggle-border c-pointer"`.
 - JavaScript:
   - DOM manipulation
-  - Anonymous function
-  - Arrow function
+  - Anonymous functions
+  - Arrow functions
   - Events
-  - Function
-  - Data validation
-  - Form submission
-  - Fetch API
+  - Functions
+  - Data validation using regular expression
+  - Form submission handling using Fetch API
   - GSAP animation library
+- JSON
+  - Constructed flat and nested JSON structures
+- PHP
+- Others:
+  - Understanding tools and dependencies related documentations
