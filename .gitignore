@@ -11,3 +11,6 @@ spare.html
 # Ignore drawio files
 *.drawio.*
 *.drawio
+
+# Ignore .xlsx files
+*.xlsx
