@@ -13,6 +13,8 @@ This is a part of my coursework assignment for:
 
 ## What I learned:
 - HTML
+  - Fundamental HTML structure
+  - Semantic elements
 - CSS
   - Class Management:
     - Transitioned from using a single general class to multiple descriptive classes for enhanced modularity and flexibility.
@@ -26,10 +28,22 @@ This is a part of my coursework assignment for:
   - Events
   - Functions
   - Data validation using regular expression
-  - Form submission handling using Fetch API
+  - Form submission handling using async/await & Fetch API
   - GSAP animation library
+- PHP
+  - Server-side logic and data processing
+  - Data validation using regular expression
+  - Function
+  - PHPMailer with Gmail SMTP
+  - Interact with MySQL database using PDO
 - JSON
   - Constructed flat and nested JSON structures
-- PHP
 - Others:
-  - Understanding tools and dependencies related documentations
+  - Custom email domain setup using Cloudflare email routing and DNS management
+  - Setup custom email address domain (or email domain? or what?) to send email from PHP using Cloudflare what?
+  - Understanding documentation for installing and using tools and dependencies relevant to the project
+
+## What I want to learn on next projects:
+- All of the above
+- Learn to use linters for JS (ESLint), CSS (Stylelint), PHP (phplint)
+- Explore frontend & backend framework (possibly dive into MERN or MEAN stack)
