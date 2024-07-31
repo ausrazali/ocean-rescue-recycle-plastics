@@ -75,6 +75,10 @@ body {
     font-size: .75rem;
 }
 
+.ft-50 {
+    font-size: .5rem;
+}
+
 .c-pointer {
     cursor: pointer;
 }
@@ -399,7 +403,7 @@ body {
     }
 
     .country-list {
-        height: 10rem;
+        height: 15rem;
         overflow-y: scroll;
         display: none;
         position: absolute;
@@ -414,18 +418,18 @@ body {
     }
 
     .country-list li {
-        margin: .5rem 0;
+        margin: 1rem 0;
         display: flex;
     }
 
     .country-list li div:nth-child(1) {
-        margin-right: .5rem;
+        padding: 0 .5rem;
     }
 
-    .country-list li svg {
+    /* .country-list li svg {
         height: 100%;
         width: 100%;
-    }
+    } */
 
     .google-map-frame {
         width: 100%;
