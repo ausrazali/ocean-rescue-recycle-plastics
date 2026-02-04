@@ -1,3 +1,6 @@
+> **Note:** This is a legacy academic project from 2024.
+> > It is preserved here to demonstrate the logic and functionality developed during my coursework.
+
 # Marine Plastic Recycle Awareness Website
 
 A comprehensive web application developed to raise awareness about marine plastic pollution and facilitate recycling initiatives. This project was built as part of the academic coursework for **UNITAR International University**.
